@@ -1,0 +1,112 @@
+body {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+h1 {
+    font-weight: normal;
+    color: #6A5953;
+}
+p {
+    font-size: 14px;
+}
+.box {
+    width: 50%;
+    margin: 40px auto;
+}
+div, h2, img {
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+}
+h2{
+    color: #E39F81;
+    text-shadow: 1px 1px 0 #FFE3BD;
+}
+h2:hover {
+    text-shadow: 1px 1px 0 #FFE3BD,
+    2px 2px 0 #FFE3BD,
+    3px 3px 0 #9f8a77,
+    4px 4px 0 #FFE3BD,
+    5px 5px 0 #dc2624;
+}
+.one, .two, .three {
+    border: 5px solid transparent;
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.one {
+    background-color: #B0CBC4;
+}
+.one:hover {
+    border: 5px groove #cb1932;
+    background-color: #f2ebd8;
+    border-top-left-radius: 100% 20px;
+    border-bottom-right-radius: 100% 20px;
+}
+.two {
+    background-color: #9f908f;
+}
+.two:hover {
+    border: 5px inset #9f908f; /* out - рамка */
+    background-color: #e0cabb;
+}
+.three {
+    background-color: #fbe2a9;
+    border: 5px solid #ff191c;
+    outline: 5px solid transparent;
+}
+.three:hover {
+    outline: 5px solid #60e32e;
+    outline-offset: 7px;
+}
+.four {
+    width: 200px;
+    height: 100px;
+    background-color: #95a1b1;
+    margin: 0 auto;
+}
+.four:hover {
+    width: 250px;
+    height: 80px;
+    box-shadow: 0 15px 15px -10px rgba(0,0,0, .5);
+}
+.five {
+    width: 100px;
+    height: 100px;
+    background-color: #e0cabb;
+    margin: 0 auto;
+    position: relative;
+    left: 50px;
+}
+.five:hover {
+    left: -30px;
+}
+.six {
+    width: 200px;
+    height: 100px;
+    margin: 0 auto;
+    box-shadow:
+            0 2px 4px rgba(0,0,0, .2),
+            0 -2px 4px rgba(0,0,0, .2);
+    background: url("../Image/border-flower.png");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+.six:hover {
+    background-position: top center;
+}
+.seven {
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
+    background-image:
+            radial-gradient(#9ed8d3 2px,
+            transparent 3px);
+    background-size: 10px 10px;
+}
+.seven:hover {
+    background-size: 20px 20px;
+}
